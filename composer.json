@@ -9,9 +9,9 @@
     "dependencies": {},
     "autoload": {
         "psr-4": {
-            "efd-contribuicoes\\": "src/efd-contribuicoes",
-            "efd-icms-ipi\\": "src/efd-icms-ipi",
-            "efd-reinf\\": "src/efd-reinf"
+            "EfdContribuicoes\\": "src/EfdContribuicoes",
+            "EfdIcmsIpi\\": "src/EfdIcmsIpi",
+            "EfdReinf\\": "src/EfdReinf"
         }
     }
 }
