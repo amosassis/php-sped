@@ -1,5 +1,7 @@
 {
-    "name": "PHP-SPED",
+    "name": "amosassis/php-sped",
+    "type": "library",
+    "description": "Biblioteca para geração dos arquivos da Escrituração Fiscal Digital - EFD",
     "version": "0.0.1",
     "keywords": ["php-sped", "efd-icms-ipi", "efd-contribuicoes", "efd-reinf"],
     "author": "Amos de Assis - AM10",
