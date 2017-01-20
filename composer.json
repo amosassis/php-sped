@@ -5,13 +5,26 @@
     "version": "0.0.1",
     "keywords": ["php-sped", "efd-icms-ipi", "efd-contribuicoes", "efd-reinf"],
     "license": ["GPL-3.0+", "LGPL-3.0+"],
-    "author": "Amos de Assis - AM10",    
-    "dependencies": {},
+    "authors": [
+        {
+            "name": "Amos de Assis",
+            "email": "amos@am10.com.br",
+            "homepage": "http://www.am10.com.br",
+            "role": "Developer"
+        }
+    ],    
+    "require-dev": {
+        "phpunit/phpunit": "4.*"      
+    },
     "autoload": {
         "psr-4": {
-            "EfdContribuicoes\\": "src/EfdContribuicoes",
-            "EfdIcmsIpi\\": "src/EfdIcmsIpi",
-            "EfdReinf\\": "src/EfdReinf"
+            "PhpSped\\": "src/"            
         }
-    }
+    },
+    "classmap": [
+        "./src/Common/",
+        "./src/EfdContribuicoes/",
+        "./src/EfdIcmsIpi/",
+        "./src/EfdReinf/"
+    ]
 }
