@@ -36,8 +36,8 @@ $bloco0->insertRegistro($registro0100);
 
 //0150
 $registro0150 = new PhpSped\EfdIcmsIpi\Bloco0\Registro0150('C001',
-    'CLIENTE TESTE LTDA', '00000000000000', '', '000000000000', '3513801', '',
-    'RUA DO CLIENTE', '500', '', 'CENTRO');
+    'CLIENTE TESTE LTDA', '1058', '00000000000000', '', '000000000000', '3513801',
+    '', 'RUA DO CLIENTE', '500', '', 'CENTRO');
 $bloco0->insertRegistro($registro0150);
 
 //0175
