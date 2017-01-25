@@ -7,6 +7,7 @@ class Registro0150
     public $REG = '0150';
     public $COD_PART;
     public $NOME;
+    public $COD_PAIS;
     public $CNPJ;
     public $CPF;
     public $IE;
@@ -21,6 +22,7 @@ class Registro0150
      * Tabela de cadastro do participante
      * @param type $COD_PART Identificacao do participante no arquivo
      * @param type $NOME Nome do participante
+     * @param type $COD_PAIS Codigo do pais do partifipante
      * @param type $CNPJ CNPJ do participante
      * @param type $CPF CPF do participante
      * @param type $IE Inscr Estadual
@@ -31,11 +33,12 @@ class Registro0150
      * @param type $COMPL Complemento
      * @param type $BAIRRO Bairro
      */
-    function __construct($COD_PART, $NOME, $CNPJ, $CPF, $IE, $COD_MUN, $SUFRAMA,
-                         $END, $NUM, $COMPL, $BAIRRO)
+    function __construct($COD_PART, $NOME, $COD_PAIS, $CNPJ, $CPF, $IE,
+                         $COD_MUN, $SUFRAMA, $END, $NUM, $COMPL, $BAIRRO)
     {
         $this->COD_PART = $COD_PART;
         $this->NOME     = $NOME;
+        $this->COD_PAIS = $COD_PAIS;
         $this->CNPJ     = $CNPJ;
         $this->CPF      = $CPF;
         $this->IE       = $IE;
